@@ -1,12 +1,12 @@
 package com.mycompany.stock.control;
 
-/**
- *
- * @author Lufyo
- */
+import view.Login;
+
 public class StockControl {
 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+        Login login = new Login();
+        login.setLocationRelativeTo(null);
+        login.setVisible(true);
+    } 
 }
